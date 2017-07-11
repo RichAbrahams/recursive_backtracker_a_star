@@ -7,11 +7,7 @@ export default class Cell {
     this.cellSize = cellSize;
     this.neighbours = neighbours;
     this.index = index;
-    this.visited = false;
-    this.wallTop = true;
-    this.wallRight = true;
-    this.wallBottom = true;
-    this.wallLeft = true;
+    this.visited = false;;
     this.walls = [true, true, true, true];
     this.centerX = centerX;
     this.centerY = centerY;
